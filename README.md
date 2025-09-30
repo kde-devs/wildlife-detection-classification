@@ -7,14 +7,14 @@
 ---
 
 ## 팀 정보
-- **팀장**: 금다은 — [GitHub](https://github.com/kde-devs)
-- **팀원**: 허다인 — [GitHub](https://github.com/dainheo)  
-           윤하늘 — [GitHub](https://github.com/gksmfoi)
+- **팀장**: [금다은](https://github.com/kde-devs)
+- **팀원**: [허다인](https://github.com/dainheo),
+-          [윤하늘](https://github.com/gksmfoi)
 
 ---
 
 ## 프로젝트 배경
-이 프로젝트는 **2025년도 2학기 데이터사이언스 전공 수업인 ‘영상데이터 분석’**을 기반으로 시작되었습니다.  
+이 프로젝트는 2025년도 2학기 데이터사이언스 전공 수업인 ‘영상데이터 분석’을 기반으로 시작되었습니다.  
 영상 기반 야생동물 탐지 및 분류 모델 개발을 목표로 하며, 교통 안전과 환경 보호를 동시에 지원합니다.
 
 ---
