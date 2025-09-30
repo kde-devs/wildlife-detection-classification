@@ -8,8 +8,7 @@
 
 ## 팀 정보
 - **팀장**: [금다은](https://github.com/kde-devs)
-- **팀원**: [허다인](https://github.com/dainheo),
--          [윤하늘](https://github.com/gksmfoi)
+- **팀원**: [허다인](https://github.com/dainheo), [윤하늘](https://github.com/gksmfoi)
 
 ---
 
