@@ -1,6 +1,6 @@
 # Wildlife Detection & Classification
 
-## 📌 프로젝트 개요
+## 프로젝트 개요
 도로 및 생활 주변 영상 데이터를 기반으로 야생동물을 탐지하고 종별로 분류하는 AI 시스템입니다.  
 교통 안전과 환경 보호를 동시에 지원하며, 실시간 경고 알림 기능까지 구현 가능합니다.
 
@@ -8,7 +8,7 @@
 
 ## 팀 정보
 - **팀장**: [금다은](https://github.com/kde-devs)
-- **팀원**: [허다인](https://github.com/dainheo), [윤하늘](https://github.com/gksmfoi)
+- **팀원**: [허다인](https://github.com/dainheo), [윤하늘](https://github.com/gksmfoi), [김선경](https://github.com/vxogu)
 
 ---
 
