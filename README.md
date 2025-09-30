@@ -1,2 +1,73 @@
-# wildlife-detection-classification
-AI system for wildlife detection and classification using road and environmental video data for traffic safety and ecological monitoring.
+# Wildlife Detection & Classification
+
+## 📌 프로젝트 개요
+도로 및 생활 주변 영상 데이터를 기반으로 야생동물을 탐지하고 종별로 분류하는 AI 시스템입니다.  
+교통 안전과 환경 보호를 동시에 지원하며, 실시간 경고 알림 기능까지 구현 가능합니다.
+
+---
+
+## 팀 정보
+- **팀장**: 금다은 — [GitHub](https://github.com/kde-devs)
+- **팀원**: 허다인 — [GitHub](https://github.com/dainheo)  
+           윤하늘 — [GitHub](https://github.com/gksmfoi)
+
+---
+
+## 프로젝트 배경
+이 프로젝트는 **2025년도 2학기 데이터사이언스 전공 수업인 ‘영상데이터 분석’**을 기반으로 시작되었습니다.  
+영상 기반 야생동물 탐지 및 분류 모델 개발을 목표로 하며, 교통 안전과 환경 보호를 동시에 지원합니다.
+
+---
+
+## 연구 내용
+
+### 1. 데이터 수집 및 가공
+- 공공데이터포털 활용: [야생동물 영상 데이터 15132981](https://www.data.go.kr/data/15132981)  
+- 개, 삵, 멧돼지, 고양이 등 다양한 동물이 포함된 영상 데이터셋 구축  
+- 전처리 과정:
+  - 영상 → 프레임 추출
+  - 객체 위치 및 종 라벨링
+
+### 2. 객체 탐지 (Object Detection)
+- YOLOv8, Faster R-CNN, EfficientDet 등 최신 객체 탐지 모델 적용  
+- 영상 내 동물 위치(bounding box) 탐지
+
+### 분류 (Classification)
+- 탐지된 객체를 종 단위로 분류  
+- 다중 분류 모델 설계: “개 / 고양이 / 멧돼지 / 삵 / 기타”
+
+### 실시간 인식 및 알림
+- 교통 환경 적용 가능하도록 실시간 처리 속도 최적화  
+- 특정 위험 동물(예: 멧돼지) 등장 시 경고 시스템 연동
+
+---
+
+## 활용 방안
+- **교통 안전**: 자율주행차, 차량 블랙박스, 도로 CCTV → 돌발 동물 출현 시 경고  
+- **환경 보호**: 멸종위기 야생동물 출현 지역 및 이동 패턴 모니터링  
+- **콘텐츠/교육**: AI 기반 생태 교육 자료 제작 및 시민 참여형 관찰
+
+---
+
+## 기대 효과
+- **사회적 효과**: 돌발 야생동물 출현으로 인한 교통사고 감소  
+- **환경적 효과**: 서식지 파악, 보호종 모니터링, 인간-야생동물 갈등 완화  
+- **기술적 효과**: 영상 데이터 기반 객체 탐지·분류 모델 성능 개선
+
+---
+
+## 연구 흐름 (프로세스)
+1. 데이터 수집 및 라벨링  
+2. 탐지 모델 학습 (YOLO/Faster R-CNN)  
+3. 분류 모델 학습 (CNN, EfficientNet 등)  
+4. 탐지+분류 통합 → 실시간 인식 시스템 구현  
+5. 실제 도로·환경 영상에서 성능 검증
+
+---
+
+## ⚡ 설치 및 실행
+```bash
+git clone https://github.com/사용자명/wildlife-detection-classification.git
+cd wildlife-detection-classification
+pip install -r requirements.txt
+
